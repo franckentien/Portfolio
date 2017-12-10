@@ -1,0 +1,175 @@
+nav:
+  main: "Main"
+  cv: "Resume"
+  project: "Projects"
+  hobbies: "Hobbies"
+  contact: "Contact"
+  lang1: "FR"
+  lang2: "JA"
+
+index:
+  keyword: "Franck, CAYZAC, programming, computer science, developer, html, css, php, java, C, C++, IA"
+  description: "Franck CAYZAC: student in computer science for programming artificial intelligence."
+  title: "Franck CAYZAC: Main"
+  titre: "Presentation"
+  welcome: "Welcome on my website. <br> I will make a brief presentation of what characterizes me."
+  presentation: "I introduce myself my name is Franck CAYZAC also known as the franckentien online.<br> I'm doing accounting and management studies and am currently studies in computer science for work on artificial intelligence."
+  hobbies: "Regarding my passions: I stopped freestyle skating to devote myself to school.<br> I also consider myself as an Otaku: passionate about computing and Japanese culture through these cultural and musical aspect.<br>Indeed I consult many article referring to Japan and I listen to a lot of J-music."
+  redirection: "I invite you to go on pages CV, project or hobbies to learn more about my personality."
+
+resume:
+    keyword: "Franck, CAYZAC, programming, computer science, developer, html, css, php, java, C, C++, IA, CV, resume, formation, experience"
+    description: "Franck CAYZAC: Find here my student and professional cursus."
+    title: "Franck CAYZAC: Resume"
+    titre: "Resume"
+
+    formation:
+      #tr
+      titre: "Formation"
+      dates: "Dates"
+      formation: "Formation"
+      lieu: "Place"
+      etablissement: "School"
+      #td
+      lp:
+        dates: "2016-2017"
+        formation: "<abbr title=\"Licence Professionnelle\">LP</abbr> <abbr title=\"Assistant Chef de Projet Informatique\">ACPI</abbr>"
+        etablissement: "IUT Montpellier-sète"
+      iut:
+        dates: "2016"
+        formation: "<abbr title=\"Computer Science\">CS</abbr> <abbr title=\"Diplôme universitaire de technologie\">DUT</abbr>"
+        etablissement: "IUT Montpellier-sète"
+      bts:
+        dates: "2015"
+        formation: "BTS <abbr title=\"Comptabilité Gestion des Organisations\">CGO</abbr>"
+        etablissement: "Lycée Nevers"
+      bac:
+        dates: "2013"
+        formation: "Bac <abbr title=\"Science Technologique Gestion Comptabilité Gestion des Organisations\">STG CGO</abbr>"
+        etablissement: "Lycée Jean Jaurès"
+
+    experience:
+      #tr
+      titre: "Work Experience"
+      dates: "Dates"
+      entreprise: "Company"
+      lieu: "Place"
+      job: "Job"
+      #td
+      sf:
+        dates: "Summer 2016"
+        entreprise: "SystemFriend"
+        link: "http://www.systemfriend.co.jp/"
+        job: "C#, Kinect sensor"
+      cesml:
+        dates: "August 2015"
+        entreprise: "CESML"
+        link: "http://www.cesml.com/"
+        job: "Check electricity meters"
+      mairie:
+        dates: "June 2015"
+        entreprise: "Service technique"
+        link: "http://www.saintgelydufesc.com/"
+        job: "city cleaning staff"
+      tcf:
+        dates: "2014 (6 and 3 weeks)"
+        entreprise: "Tous Comptes Faits"
+        link: "http://www.touscomptesfaits.fr/"
+        job: "Accountancy Internship"
+      mario:
+        dates: "Summer 2012<br>Summer 2011"
+        entreprise: "Pizza Mario"
+        link: "http://www.pizza-mario-narbonne.fr/"
+        job: "Delivery man"
+      boulangerie:
+        dates: "Family business"
+        entreprise: "Bakery Autour Du Pain"
+        job: "Baker and seller"
+
+    divers:
+      titre: "COMPUTER SCIENCE AND FOREIGN LANGUAGES"
+      logiciel:
+        maitrise: "Software mastered: NetBeans, Visual Studio, FileZilla, NotePad++, Ubuntu, Windows"
+        partiel: "Software partially mastered: Code::Blocks, Eclipse, Unity, Android Studio"
+        divers: "Various software: Suite Office, Ciel, Quadra, Sage"
+      programmation:
+        maitrise: "Computer Language mastered: C#, Java , HTML, PHP, SQL/MySQL"
+        partiel: "Computer Language partially mastered: Python, C, C++, Java, CSS, JS, Jquery, PL/SQL"
+      langues: "Foreign languages: French (Mother tongue), English (TOEIC : 610 points), Japanese (notions)"
+
+    lieu:
+      montpellier: "Montpellier (France)"
+      st-clement: "Saint-Clément-de-Rivière"
+      st-gely: "Saint-Gély-du-Fesc"
+      valras: "Valras-Plage"
+      hiroshima: "Hiroshima (Japan)"
+
+project:
+    keyword: "Franck, CAYZAC, programming, computer science, developer, html, css, php, java, C, C++, IA, project"
+    description: "Franck CAYZAC: Find here all my personal and professional projects."
+    title: "Franck CAYZAC: Projects"
+    titre: "Projects"
+    presentation: "I have many computer projects I will make a small presentation here."
+    melia:
+      titre: "Melia"
+      presentation: "Melia or MeliaBot following the support to which it is located is an artificial intelligence of communication that answers questions."
+      v01:
+        titre: "Melia 0.1"
+        presentation: "The first version of Melia is coded in C ++. It is based on the database in principle with the questions and answers stored in files."
+        download: "You can find the source code on GitHub: <a href=\"https://github.com/franckentien/MeliaCpp\" target=\"_blank\">Melia V0.1</a>"
+      v10:
+        titre: "Melia 1.0"
+        presentation: "The second version of Melia is coded in C# and has the ability to connect to an IRC chat on <a href=\"http://www.twitch.tv/meliabot\" target=\"_blank\">Twitch</a> an to the <a href=\"https://discordapp.com/\" target=\"_blank\">Discord</a> serveur.<br>This allows me to encode on live and be able to interact with other users without requiring them to install my program.<br>The program source code is not currently downloadable because is still in development."
+    web:
+      titre: "Website"
+      presentation: "I had the opportunity to create a website for my pleasure"
+      convention:
+        titre: "Convention Geek"
+        presentation: "My first website is: <a href=\"http://www.convention-geek.fr\" target=\"_blank\">www.convention-geek.fr</a>. I was looking for the conventions in France to be able to go there and I said: \"it is unfortunate that there is no website that bring together all in the same place\". I have therefore come during the summer 2014 and i create my first web site who have 150 visitors as day."
+    scolaire:
+      titre: "School projects"
+      presentation: "I had the opportunity during my special year in IUT of Montpellier to create many small program: Python, C and Java but not very thorough.<br>I can on request provide the sources of my programs to give you an idea of my skills."
+      nims:
+        titre: "Nim game"
+        presentation: "The biggest project that we have to achieve in special year was the creation of <a href=\"https://www.jeudenim.fr\" target=\"_blank\">Nim game</a>.<br>We have to develop a game in multiplayer and versus an Artificial Intelligence"
+
+hobbies:
+    keyword: "Franck, CAYZAC, programming, computer science, developer, html, css, php, java, C, C++, IA, hobbies, japan, video game"
+    description: "Franck CAYZAC: Find here all my hobbies and what motivates my life outside of school."
+    title: "Franck CAYZAC: Hobbies"
+    titre: "Hobbies"
+    presentation: "I have many passions that can not appear in my other parts so I'm a dedicated a page."
+    sport:
+      titre: "Sport"
+      roller: "I did freestyle skating during my high school years. I participated has régionnal competitions with fise castelnau le lez, nationnal with the fise exeprience tour in Canet en roussillon, and the <a href=\"http://www.fise.fr/en/riders/cayzac-franck\" target=\"_blank\">Fise world Montpellier</a>."
+      stop: "To my various computer science projects and studies I had to stop to focus on less risky activities."
+    video:
+      titre: "Video"
+      presentation: "I do many Youtube videos on different themes."
+      jv:
+        titre: "Video game"
+        presentation: "I started my video on <a href=\"https://www.youtube.com/playlist?list=PL6f8kJdB1KyL_GY5yLEx1kJmXKXs_uuLs\" target=\"_blank\">Minecraft</a> and still more generally on video games.<br>I have a <a href=\"https://www.youtube.com/franckentien\" target=\"_blank\">Youtube channel</a> with 800 followers and 250 000 views"
+      report:
+        titre: "Report"
+        presentation: "I also realized short videos about <a href=\"https://www.youtube.com/playlist?list=PL6f8kJdB1KyLcEQ5Cr1c96yXSkDwf98JF\" target=\"_blank\">place</a> or <a href=\"https://www.youtube.com/playlist?list=PL6f8kJdB1KyLI3BsjZYh9M28jCmlT4fAI\" target=\"_blank\">event</a> where I had the opportunity to go."
+    japon:
+      titre: "Japan"
+      origine: "I am for several years a very large passionate of Japan and its culture.<br>I learned a lot in recent years on this country and I'm trying to learn the language by myself.<br>My passion led me to go more and more into the conventions on Japan and video games, both being strangely linked.<br>I came created a website to know all <a href=\"http://www.convention-geek.fr/\" target=\"_blank\">event that take place in France</a> "
+      like: "I watch many report to continue to learn about the country but I also watch a lot of movie (<a href=\"https://en.wikipedia.org/wiki/Studio_Ghibli\" target=\"_blank\">Ghibli</a>), Animé (<a href=\"https://en.wikipedia.org/wiki/K-ON!\" target=\"_blank\">けいおん!</a>, <a href=\"https://en.wikipedia.org/wiki/Your_Lie_in_April\" target=\"_blank\">四月は君の嘘</a>) in VOSTFR only if available because they allow me to see the country through the animation for example phrases or puns that can not be translated into French.<br>"
+      merci: "ありがとございます"
+
+
+Form submit: "Submit"
+contact:
+    keyword: "Franck, CAYZAC, programming, computer science, developer, html, css, php, java, C, C++"
+    description: "Franck CAYZAC: Contact form"
+    title: "Franck CAYZAC: Contact"
+    titre: "Contact form"
+    main: "If you need to contact me<br>You can use the form below or contact me by mail: franck(dot)cayzac(at)gmail(dot)com"
+    form:
+      name: "Your name :"
+      mail: "Email :"
+      message: "Message :"
+    submit: "Your form has been sent"
+
+

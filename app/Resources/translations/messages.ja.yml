@@ -1,0 +1,172 @@
+nav:
+  main: "メインページ"
+  cv: "職務経歴書"
+  project: "プロジェクト"
+  hobbies: "趣味"
+  contact: "お問い合わせ"
+  lang1: "FR"
+  lang2: "EN"
+
+index:
+  keyword: "Franck, CAYZAC, プログラミング, コンピュータ, プログラマー, html, css, php, java, C, C++, 人工知能"
+  description: "Franck CAYZAC: 人工知能をプログラムするためのコンピュータサイエンスの学生。"
+  title: "Franck CAYZAC: ホームページ"
+  titre: "紹介"
+  welcome: "私のウェブサイトにようこそ。 <br>私は自分自身を紹介します。"
+  presentation: "私の名前は Franck CAYZAC です <br> 私は会計と管理の研究を行っており、現在、人工知能の作業のためのコンピュータサイエンスでの研究ですよ。"
+  hobbies: "私の情熱について：私は学校に自分自身を捧げることをスケートフリースタイルを停止しました。 <br> 私もオタクとして自分自身を考えてみます。これらの文化的、音楽的側面を通じてコンピューティングと日本文化に情熱。 <br> 実際、私は日本に言及多くの記事を参照してください、私は日本の音楽の多くに耳を傾けます。"
+  redirection: "私は私の人格についての詳細を学ぶために、ページ 職務経歴書、プロジェクトや趣味に行くためにあなたを招待します。"
+
+resume:
+    keyword: "Franck, CAYZAC, プログラミング, コンピュータ, プログラマー, html, css, php, java, C, C++, 人工知能, 職務経歴書, 研究, 実務経験"
+    description: "Franck CAYZAC: ここに私の学生とプロの経験を見つけます。"
+    title: "Franck CAYZAC: 職務経歴書"
+    titre: "職務経歴書"
+
+    formation:
+      #tr
+      titre: "研究"
+      dates: "日付"
+      formation: "形成"
+      lieu: "場所"
+      etablissement: "学校"
+      #td
+      lp:
+        dates: "2016年-2017年"
+        formation: "<abbr title=\"Licence Professionnelle\">LP</abbr> <abbr title=\"Assistant Chef de Projet Informatique\">ACPI</abbr>"
+        etablissement: "IUT Montpellier-sète"
+      iut:
+        dates: "2016年"
+        formation: "<abbr title=\"コンピュータサイエンス\">CS</abbr> <abbr title=\"Diplôme universitaire de technologie\">DUT</abbr>"
+        etablissement: "IUT Montpellier-sète"
+      bts:
+        dates: "2015年"
+        formation: "BTS <abbr title=\"Comptabilité Gestion des Organisations\">CGO</abbr>"
+        etablissement: "Lycée Nevers"
+      bac:
+        dates: "2013年"
+        formation: "Bac <abbr title=\"Science Technologique Gestion Comptabilité Gestion des Organisations\">STG CGO</abbr>"
+        etablissement: "Lycée Jean Jaurès"
+
+    experience:
+      #tr
+      titre: "実務経験"
+      dates: "日付"
+      entreprise: "会社"
+      lieu: "場所"
+      job: "仕事"
+      #td
+      sf:
+        dates:  "2016年夏"
+        entreprise: "株式会社システムフレンド"
+        link: "http://www.systemfriend.co.jp/"
+        job: "KinectセンサーとC＃"
+      cesml:
+        dates: "2015年8月"
+        entreprise: "CESML"
+        link: "http://www.cesml.com/"
+        job: "電気メーターをチェックする"
+      mairie:
+        dates: "2015年6月"
+        entreprise: "Service technique"
+        link: "http://www.saintgelydufesc.com/"
+        job: "都市清掃要員"
+      tcf:
+        dates: "2014年（6と3週間）"
+        entreprise: "Tous Comptes Faits"
+        link: "http://www.touscomptesfaits.fr/"
+        job: "会計インターンシップ"
+      mario:
+        dates: "2012年夏<br>2011年夏"
+        entreprise: "Pizza Mario"
+        link: "http://www.pizza-mario-narbonne.fr/"
+        job: "配達人"
+      boulangerie:
+        dates: "家業"
+        entreprise: "パン屋 Autour Du Pain"
+        job: "パン屋と売り手"
+
+    divers:
+      titre: "コンピュータ科学、外国語"
+      logiciel:
+        maitrise: "ソフトウェア習得: NetBeans, Visual Studio, FileZilla, NotePad++, Ubuntu, Windows"
+        partiel: "ソフトウェア部分的習得: Code::Blocks, Eclipse, Unity, Android Studio"
+        divers: "様々ソフトウェア: Suite Office, Ciel, Quadra, Sage"
+      programmation:
+        maitrise: "コンピュータ言語習得: C#, Java , HTML, PHP, SQL/MySQL"
+        partiel: "コンピュータ言語部分的習得: Python, C, C++, Java, CSS, JS, Jquery, PL/SQL"
+      langues: "言語: フランス語 (母国語), 英語 (TOEIC 点数: 610 点数), 日本語 (概念)"
+
+    lieu:
+      montpellier: "Montpellier (フランス)"
+      st-clement: "Saint-Clément-de-Rivière"
+      st-gely: "Saint-Gély-du-Fesc"
+      valras: "Valras-Plage"
+      hiroshima: "広島"
+
+project:
+    keyword: "Franck, CAYZAC, プログラミング, コンピュータ, プログラマー, html, css, php, java, C, C++, 人工知能, プロジェクト"
+    description: "Franck CAYZAC: ここにすべての私の個人的および専門的なプロジェクトを検索します。"
+    title: "Franck CAYZAC: プロジェクト"
+    titre: "プロジェクト"
+    presentation: "私はここに小さなプレゼンテーションを行います多くのコンピュータのプロジェクトを持っています。"
+    melia:
+      titre: "Melia"
+      presentation: "Melia または MeliaBot は、それが質問に答える通信の人工知能が配置されているにサポートを示します。"
+      v01:
+        titre: "Melia 0.1"
+        presentation: "メリアの最初のバージョンは、C++ でコーディングされています。 これは、ファイルに保存された質問と回答で、原則的にデータベースに基づいています。"
+        download: "ここにプログラムのされたバージョンをダウンロードすることができます： <a href=\"https://github.com/franckentien/MeliaCpp\" target=\"_blank\">Melia V0.1</a>"
+      v10:
+        titre: "Melia 1.0"
+        presentation: "メリアの第2のバージョンは、C#でコーディングし、IRCチャットに接続する機能を有しています: <a href=\"http://www.twitch.tv/meliabot\" target=\"_blank\">Twitch</a><br> これは私がライブで作業することができます。<br> まだ開発中であるため、プログラムのソースコードは、現在ダウンロード可能されていません。"
+    web:
+      titre: "ウェブサイト"
+      presentation: "私は自分の喜びのためにウェブサイトを作成する機会がありました。"
+      convention:
+        titre: "Convention Geek"
+        presentation: "私の最初のウェブサイト：<a href=\"http://www.convention-geek.fr\" target=\"_blank\">www.convention-geek.fr</a> 。 このウェブサイトはフランスのオタクイベントの日程を収集します。"
+    scolaire:
+      titre: "学校プロジェクト"
+      presentation: "モンペリエの DUTの私の特別な年の間、私は多くの小さなプログラムを作成します。<br> 私は、リクエストに応じてあなたに自分のスキルのアイデアを与えるために私のプログラムのソースを提供することができます。"
+      nims:
+        titre: "NIMゲーム"
+        presentation: "我々は特別な年に達成しなければならない最大のプロジェクトは <a href=\"https://www.jeudenim.fr\" target=\"_blank\">NIMゲーム</a>を作成しました。<br> 我々は、マルチプレイヤーや人工知能対ゲームを開発する必要があります"
+
+hobbies:
+    keyword: "Franck, CAYZAC, プログラミング, コンピュータ, プログラマー, html, css, php, java, C, C++, 人工知能, 趣味, 日本, ビデオ・ゲーム"
+    description: "Franck CAYZAC: ここにすべての私の趣味を見つけます。"
+    title: "Franck CAYZAC: 趣味"
+    titre: "趣味"
+    presentation: "私は多くの情熱を持っています。"
+    sport:
+      titre: "スポーツ"
+      roller: "私は高校年の間にフリースタイルスケートをしました。 私は多くの大会に参加してきました。"
+      stop: "私は学校のためにそれを停止します。"
+    video:
+      titre: "ビデオ"
+      presentation: "私は別のテーマに多くのYouTubeのビデオを行います。"
+      jv:
+        titre: "ビデオ・ゲーム"
+        presentation: "私は <a href=\"https://www.youtube.com/playlist?list=PL6f8kJdB1KyL_GY5yLEx1kJmXKXs_uuLs\" target=\"_blank\">Minecraft</a> の上で自分の動画を始めました。<br> 私の<a href=\"https://www.youtube.com/franckentien\" target=\"_blank\">ユーチューブチャンネル</a> は、800加入者と250000ビューを持っています"
+      report:
+        titre: "ビデオレポート"
+        presentation: "また、私は行く機会があった<a href=\"https://www.youtube.com/playlist?list=PL6f8kJdB1KyLcEQ5Cr1c96yXSkDwf98JF\" target=\"_blank\">場所</a>や <a href=\"https://www.youtube.com/playlist?list=PL6f8kJdB1KyLI3BsjZYh9M28jCmlT4fAI\" target=\"_blank\">イベント</a>に関する短いビデオを実現しました。"
+    japon:
+      titre: "日本"
+      origine: "私は日本文化の非常に大きな情熱的です。<br>私はこの国に近年では多くのことを学んだし、私は自分で言語を習得しようとしています。"
+      like: "私は国について学ぶために継続するための多くのレポートを見ます。 私はまた、VOSTFR映画(<a href=\"http://www.ghibli.jp\" target=\"_blank\">スタジオジブリ</a>)や漫画(<a href=\"https://ja.wikipedia.org/wiki/%E3%81%91%E3%81%84%E3%81%8A%E3%82%93!\" target=\"_blank\">けいおん!</a>, <a href=\"https://ja.wikipedia.org/wiki/%E5%9B%9B%E6%9C%88%E3%81%AF%E5%90%9B%E3%81%AE%E5%98%98\" target=\"_blank\">四月は君の嘘</a>)の多くを見ます。"
+      merci: "Merci beaucoup"
+
+Form submit: "提出する"
+contact:
+    keyword: "Franck, CAYZAC, プログラミング, コンピュータ, プログラマー, html, css, php, java, C, C++, 人工知能, お問い合わせ"
+    description: "Franck CAYZAC: お問い合わせ"
+    title: "Franck CAYZAC: お問い合わせ"
+    titre: "お問い合わせ"
+    main: "あなたは私に連絡したい場合 <br> あなたは下記の連絡書を使用したり、メールで私に連絡することができます： franck(dot)cayzac(at)gmail(dot)com"
+    form:
+      name: "あなたの名前 ："
+      mail: "メール :"
+      message: "書き込む :"
+    submit: "あなたのフォームが送信されました"

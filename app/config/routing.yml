@@ -1,0 +1,37 @@
+# app/config/routing.yml
+
+App_home:
+  path: /
+  defaults: { _controller: AppBundle:Default:index}
+
+
+App_main:
+  path: /{_locale}/
+  defaults: { _controller: AppBundle:Default:index}
+  requirements:
+      _locale: en|fr|ja
+
+App_resume:
+  path: /{_locale}/resume
+  defaults: { _controller: AppBundle:Default:resume}
+  requirements:
+      _locale: en|fr|ja
+
+App_project:
+  path: /{_locale}/project
+  defaults: { _controller: AppBundle:Default:project}
+  requirements:
+      _locale: en|fr|ja
+
+App_hobbies:
+  path: /{_locale}/hobbies
+  defaults: { _controller: AppBundle:Default:hobbies}
+  requirements:
+      _locale: en|fr|ja
+
+App_contact:
+  path: /{_locale}/contact
+  defaults: { _controller: AppBundle:Default:contact}
+  requirements:
+      _locale: en|fr|ja
+

@@ -1,0 +1,170 @@
+nav:
+  main: "Accueil"
+  cv: "CV"
+  project: "Projets"
+  hobbies: "Loisirs"
+  contact: "Contact"
+  lang1: "EN"
+  lang2: "JA"
+
+index:
+  keyword: "Franck, CAYZAC, programmation, informatique, developpeur, html, css, php, java, C, C++, IA"
+  description: "Franck CAYZAC: étudiant en informatique pour de la programmation en intelligence artificielle."
+  title: "Franck CAYZAC: Accueil"
+  titre: "Présentation"
+  welcome: "Bienvenue à tous sur mon site web. <br>Je vais faire une présentation rapide de ce qui me caractérise le plus."
+  presentation: "Je me présente je m'appelle Franck CAYZAC aussi connu sous le nom de franckentien sur internet. <br> J'ai fais des études de comptabilité et de gestion et je suis actuellement en formation de programmation pour m'orienter vers de l'intelligence artificielle."
+  hobbies: "En ce qui concerne mes passions : j'ai arrêté le roller freestyle pour me consacrer aux études. <br> Je me considère aussi comme un Otaku: passionné d'informatique et de la culture japonaise par ces aspect culturel et musical. <br> En effet je consulte de nombreux articles faisant référence à l'archipel et écoute beaucoup de J-music."
+  redirection: "Je vous invite à vous rediriger vers les pages CV, projet ou loisir pour en savoir plus sur ma personnalité."
+
+resume:
+  keyword: "Franck, CAYZAC, programmation, informatique, developpeur, html, css, php, java, C, C++, IA, CV, curriculum vitae, formation, experience "
+  description: "Franck CAYZAC: Retrouvez ici mon cursus etudiant et professionnels."
+  title: "Franck CAYZAC: CV"
+  titre: "Curriculum Vitae"
+  formation:
+    titre: "Formation"
+    dates: "Dates"
+    formation: "Formation"
+    lieu: "Lieu"
+    etablissement: "Etablissement"
+    #td
+    lp:
+      dates: "2016-2017"
+      formation: "<abbr title=\"Licence Professionnelle\">LP</abbr> <abbr title=\"Assistant Chef de Projet Informatique\">ACPI</abbr>"
+      etablissement: "IUT Montpellier-sète"
+    iut:
+      dates: "2016"
+      formation: "<abbr title=\"Diplôme universitaire de technologie\">DUT</abbr> Informatique"
+      etablissement: "IUT Montpellier-sète"
+    bts:
+      dates: "2015"
+      formation: "BTS <abbr title=\"Comptabilité Gestion des Organisations\">CGO</abbr>"
+      etablissement: "Lycée Nevers"
+    bac:
+      dates: "2013"
+      formation: "Bac <abbr title=\"Science Technologique Gestion Comptabilité Gestion des Organisations\">STG CGO</abbr>"
+      etablissement: "Lycée Jean Jaurès"
+
+  experience:
+    #tr
+    titre: "Expériences professionnelles"
+    dates: "Dates"
+    entreprise: "Entreprise"
+    lieu: "Lieu"
+    job: "Taches effectuées"
+    #td
+    sf:
+      dates: "Été 2016"
+      entreprise: "SystemFriend"
+      link: "http://www.systemfriend.co.jp/"
+      job: "C#, Kinect sensor"
+    cesml:
+      dates: "Août 2015"
+      entreprise: "CESML"
+      link: "http://www.cesml.com/"
+      job: "Relève des compteurs électriques"
+    mairie:
+      dates: "Juin 2015"
+      entreprise: "Service technique"
+      link: "http://www.saintgelydufesc.com/"
+      job: "Entretien de la ville"
+    tcf:
+      dates: "2014 (6 et 3 semaines)"
+      entreprise: "Tous Comptes Faits"
+      link: "http://www.touscomptesfaits.fr/"
+      job: "Stagiaire comptable"
+    mario:
+      dates: "Été 2012<br>Été 2011"
+      entreprise: "Pizza Mario"
+      link: "http://www.pizza-mario-narbonne.fr/"
+      job: "Livreur"
+    boulangerie:
+      dates: "Entreprise familiale"
+      entreprise: "Autour du pain"
+      job: "Boulangerie"
+
+  divers:
+    titre: "Informatique et Langues Étrangères"
+    logiciel:
+      maitrise: "Logiciel maîtrisé : NetBeans, Visual Studio, FileZilla, NotePad++, Ubuntu, Windows"
+      partiel: "Logiciel partiellement maîtrisé : Code::Blocks, Eclipse, Unity, Android Studio"
+      divers: "Logiciel Divers : Suite Office, Ciel, Quadra, Sage"
+    programmation:
+      maitrise: "Langage informatique maîtrisé : C#, Java , HTML, PHP, SQL/MySQL"
+      partiel: "Langage partiellement maîtrisé : Python, C, C++, Java, CSS, JS, Jquery, PL/SQL"
+    langues: "Langue étrangère : Francais (Langue maternelle), Anglais (TOEIC : 610 points), Japonais (notions)"
+
+  lieu:
+    montpellier: "Montpellier"
+    st-clement: "Saint-Clément-de-Rivière"
+    st-gely: "Saint-Gély-du-Fesc"
+    valras: "Valras-Plage"
+    hiroshima: "Hiroshima (Japon)"
+
+project:
+    keyword: "Franck, CAYZAC, programmation, informatique, developpeur, html, css, php, java, C, C++, IA, projet"
+    description: "Franck CAYZAC: Retrouvez ici tous mes projets personnels et professionnels"
+    title: "Franck CAYZAC: Projets"
+    titre: "Projets"
+    presentation: "Je dispose de nombreux projets en informatique je vais vous en faire une petite présentation ici."
+    melia:
+      titre: "Melia"
+      presentation: "Melia ou MeliaBot suivant le support sur lequel elle se trouve est une intelligence artificielle de communication qui répond à des questions."
+      v01:
+        titre: "Melia 0.1"
+        presentation: "La toute première version de Melia est codée en C++. Elle se base sur le principe de base de données avec les questions et les réponses stocker dans des fichiers."
+        download: "Vous pouvez retrouver le code source sur GitHub: <a href=\"https://github.com/franckentien/MeliaCpp\" target=\"_blank\">Melia V0.1</a>"
+      v10:
+        titre: "Melia 1.0"
+        presentation: "La deuxième version de Melia est codé en C# et dispose de la possibilité de se connecter à un chat IRC actuellement <a href=\"http://www.twitch.tv/meliabot\" target=\"_blank\">Twitch</a> et à un serveur <a href=\"https://discordapp.com/\" target=\"_blank\">Discord</a>.<br>Ce qui me permet de coder en direct et de pouvoir faire interagir les autres utilisateurs sans qu'ils aient besoin d'installer mon programme.<br>Le code source du programme n'est actuellement pas en téléchargement car Melia est toujours en développement."
+    web:
+      titre: "Site Web"
+      presentation: "J'ai eu l'occasion de créer un site web pour mon plaisir en plus de celui-ci."
+      convention:
+        titre: "Convention Geek"
+        presentation: "Mon tous premier site web a été: <a href=\"http://www.convention-geek.fr\">www.convention-geek.fr</a>. Je cherchais les conventions en France pour pouvoir m'y rendre et je me suis dit : \"c'est dommage qu'il n'y est pas de site web qui les rassemblent toutes au même endroit\". J'en suis donc venu durant l'été 2014 à créer mon tous premier site web qui rassemble aujourd'hui environ 150 visiteurs par jour."
+    scolaire:
+      titre: "Projets Scolaire"
+      presentation: "J'ai eu l'occasion durant mon année special a l'IUT de Montpellier de créer de nombreux petits programme en : Python, C et Java mais jamais très poussé.<br> Je peux sur demande fournir les sources de mes programmes pour vous donner une idée de mes compétences."
+      nims:
+        titre: "Jeu de Nims"
+        presentation: "Le plus gros projet que nous avons à réaliser en <abbr title=\"Année Special\">AS</abbr> est la création d'un <a href=\"https://fr.wikipedia.org/wiki/Jeux_de_Nim\" target=\"_blank\">jeu de Nim</a>.<br>Nous devons mettre en place un jeu en multijoueur et contre une Intelligence Artificielle"
+
+hobbies:
+    keyword: "Franck, CAYZAC, programmation, informatique, developpeur, html, css, php, java, C, C++, IA, hobbies, japon, jeux vidéo"
+    description: "Franck CAYZAC: Retrouvez ici mes différente passion et ce qui motive ma vie en dehors des études."
+    title: "Franck CAYZAC: Loisir"
+    titre: "Loisir"
+    presentation: "J'ai de nombreuses passions qui ne peuvent pas apparaitre dans mes autres parties donc j'en fais une partie dédiée."
+    sport:
+      titre: "Sport"
+      roller: "J'ai fait du roller freestyle pendant mes années de lycée. J'ai participé a des competions régionnal avec le fise castelnau le lez, nationnal avec le fise exeprience tour à Canet en roussillon, ainsi que le <a href=\"http://www.fise.fr/en/riders/cayzac-franck\" target=\"_blank\">Fise world Montpellier</a>."
+      stop: "En vue de mes différents projets informatique et des études j'ai dû arrêter pour me concentrer sur des activités moins risquées et plus calme. "
+    video:
+      titre: "Vidéo"
+      presentation: "J'ai réalisé de nombreuse vidéos Youtube sur différent thèmes."
+      jv:
+        titre: "Jeu Vidéo"
+        presentation: "J'ai commencé mes vidéos sur <a href=\"https://www.youtube.com/playlist?list=PL6f8kJdB1KyL_GY5yLEx1kJmXKXs_uuLs\" target=\"_blank\">Minecraft</a> et continué plus en général sur les jeux vidéos <br>Je dispose d'une <a href=\"https://www.youtube.com/franckentien\" target=\"_blank\">chaine Youtube</a> d'environ 800 abonnés et 250 000 vues"
+      report:
+        titre: "Mini reportage"
+        presentation: "J'ai aussi réalisé des petites vidéos sur des <a href=\"https://www.youtube.com/playlist?list=PL6f8kJdB1KyLcEQ5Cr1c96yXSkDwf98JF\" target=\"_blank\">lieux</a>  ou des <a href=\"https://www.youtube.com/playlist?list=PL6f8kJdB1KyLI3BsjZYh9M28jCmlT4fAI\" target=\"_blank\">évènements</a> où j'ai eu la possibilité de me rendre."
+    japon:
+      titre: "Japon"
+      origine: "Je suis depuis plusieurs années un trés grand passionnée du Japon et de sa culture.<br>J'ai depuis quelques années appris beaucoup sur ce pays et je j'essaye d'apprendre la langue en autodidacte.<br>Ma passion m'a menée à aller de plus en plus dans les conventions sur le Japon et les jeux vidéo, les deux étant étrangement lies.<br>J'en suis venue a crée un site web pour connaitre toutes <a href=\"http://www.convention-geek.fr/\" target=\"_blank\">les conventions qui ont lieu en france</a> "
+      like: "Ce que je suis le plus au Japon ce sont les reportages pour pouvoir continuer à apprendre sur le pays mais je regarde aussi beaucoup de film (<a href=\"https://fr.wikipedia.org/wiki/Studio_Ghibli\" target=\"_blank\">Ghibli</a>), d'Animé (<a href=\"https://fr.wikipedia.org/wiki/K-ON!\" target=\"_blank\">けいおん!</a>, <a href=\"https://fr.wikipedia.org/wiki/Your_Lie_in_April\" target=\"_blank\">四月は君の嘘</a>) uniquement en VOSTFR si disponible car ils me permettent de voir le pays par l'animation avec par exemple avec des expressions ou des jeux de mots que l'on ne peut pas traduire en français.<br>"
+      merci: "ありがとございます"
+
+Form submit: "Envoyer"
+contact:
+    keyword: "Franck, CAYZAC, programmation, informatique, developpeur, html, css, php, java, C, C++"
+    description: "Franck CAYZAC: Formulaire de contact"
+    title: "Franck CAYZAC: Contact"
+    titre: "Formulaire de contact"
+    main: "Si vous avez besoin de me contacter<br>Vous pouvez utiliser le formulaire si dessous ou me joindre par mail à: franck(dot)cayzac(at)gmail(dot)com"
+    form:
+      name: "Votre nom :"
+      mail: "Adresse Email :"
+      message: "Message :"
+    submit: "Votre formulaire a bien été envoyé"

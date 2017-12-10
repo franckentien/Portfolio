@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteCond %{SERVER_PORT} 80
+    RewriteRule ^(.*)$ https://www.franck-cayzac.fr/$1 [R,L]
+
+    Rewritecond %{HTTP_HOST} ^franck-cayzac.fr$
+    Rewriterule ^(.*) https://www.franck-cayzac.fr/$1 [QSA,L,R=301]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ web/$1 [QSA,L]
+
+</IfModule>
+
+Options -Indexes

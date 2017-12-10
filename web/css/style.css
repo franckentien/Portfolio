@@ -1,0 +1,126 @@
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px;}
+.material-icons.md-24 { font-size: 24px;}
+.material-icons.md-36 { font-size: 36px;}
+.material-icons.md-48 { font-size: 48px;}
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+.material-icons{
+    margin-right: 32px;
+}
+
+html body{
+    font-family: "Roboto","Helvetica","Arial",sans-serif !important;
+}
+
+h1{
+    font-size: 20px!important;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 18px!important;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 16px!important;
+    font-weight: bold;
+}
+
+/*region menu */
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link{
+    color: rgba(255, 255, 255, 1);
+}
+
+.mdl-layout-title{
+    color: white;
+}
+
+.menu-grey{
+    background-color: #424242; border: #212121 solid 1px
+}
+
+.menu-dark{
+    background-color: #212121
+}
+
+
+/*endregion menu*/
+
+/*region table*/
+
+caption{
+    margin-bottom: 1%;
+    font-size: 18px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.table100
+{
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.mdl-data-table__cell--non-numeric.mdl-data-table__cell--non-numeric{
+    text-align: center;
+}
+
+/*endregion table*/
+
+/*region card*/
+.my-card-wide.mdl-card {
+    width: 90%;
+    margin: auto;
+}
+/*endregion card*/
+
+/*#region form*/
+.mdl-textfield{
+    width: 85%;
+    max-width: 500px;
+}
+
+.form_errors{
+    color: red;
+}
+
+.form_errors ul {
+    margin:0;
+}
+
+/*#endregion form*/
+
+@media (max-width: 1024px){
+
+    html, body{
+        line-height: inherit;
+    }
+
+    .mdl-data-table th{
+        height: inherit;
+    }
+
+    .mdl-data-table td:first-of-type, .mdl-data-table th:first-of-type{
+        padding-left: 18px;
+    }
+
+    td,th{width: 100%; display: block; border-style: none;}
+    .mdl-data-table td{
+        height: inherit;
+        border: none;
+    }
+    tr{
+        border-top: 1px solid rgba(0,0,0,.12);
+        border-bottom: 1px solid rgba(0,0,0,.12);
+    }
+}

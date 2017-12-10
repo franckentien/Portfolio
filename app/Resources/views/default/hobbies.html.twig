@@ -1,0 +1,35 @@
+{# app/Ressources/views/default/index.html.twig #}
+{% extends '::menu.html.twig' %}
+{% block metaKeyword %}{% trans %}hobbies.keyword{% endtrans %}{% endblock %}
+{% block metaDescription %}{% trans %}hobbies.description{% endtrans %}{% endblock %}
+{% block metaTitle %}{% trans %}hobbies.title{% endtrans %}{% endblock %}
+
+{% block menuTitre %}{% trans %}hobbies.titre{% endtrans %}{% endblock %}
+{% block pageContent %}
+
+    <p>{% trans %}hobbies.presentation{% endtrans %}</p>
+
+    <h2>{% trans %}hobbies.sport.titre{% endtrans %}</h2>
+
+    <p>{% trans %}hobbies.sport.roller{% endtrans %}</p>
+    <p>{% trans %}hobbies.sport.stop{% endtrans %}</p>
+
+    <h2>{% trans %}hobbies.video.titre{% endtrans %}</h2>
+
+    <p>{% trans %}hobbies.video.presentation{% endtrans %}</p>
+
+    <h3>{% trans %}hobbies.video.jv.titre{% endtrans %}</h3>
+
+    <p>{% trans %}hobbies.video.jv.presentation{% endtrans %}</p>
+
+    <h3>{% trans %}hobbies.video.report.titre{% endtrans %}</h3>
+
+    <p>{% trans %}hobbies.video.report.presentation{% endtrans %}</p>
+
+    <h2>{% trans %}hobbies.japon.titre{% endtrans %}</h2>
+
+    <p>{% trans %}hobbies.japon.origine{% endtrans %}</p>
+    <p>{% trans %}hobbies.japon.like{% endtrans %}</p>
+    <p>{% trans %}hobbies.japon.merci{% endtrans %}</p>
+
+{% endblock %}

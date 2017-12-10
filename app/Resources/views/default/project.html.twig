@@ -1,0 +1,42 @@
+{# app/Ressources/views/default/index.html.twig #}
+{% extends '::menu.html.twig' %}
+{% block metaKeyword %}{% trans %}project.keyword{% endtrans %}{% endblock %}
+{% block metaDescription %}{% trans %}project.description{% endtrans %}{% endblock %}
+{% block metaTitle %}{% trans %}project.title{% endtrans %}{% endblock %}
+
+{% block menuTitre %}{% trans %}project.titre{% endtrans %}{% endblock %}
+{% block pageContent %}
+
+    <p>{% trans %}project.presentation{% endtrans %}</p>
+
+    <h2>{% trans %}project.melia.titre{% endtrans %}</h2>
+
+    <p>{% trans %}project.melia.presentation{% endtrans %}</p>
+
+    <h3>{% trans %}project.melia.v01.titre{% endtrans %}</h3>
+
+    <p>{% trans %}project.melia.v01.presentation{% endtrans %}</p>
+    <p>{% trans %}project.melia.v01.download{% endtrans %}</p>
+
+    <h3>{% trans %}project.melia.v10.titre{% endtrans %}</h3>
+
+    <p>{% trans %}project.melia.v10.presentation{% endtrans %}</p>
+
+    <h2>{% trans %}project.web.titre{% endtrans %}</h2>
+
+    <p>{% trans %}project.web.presentation{% endtrans %}</p>
+
+    <h3>{% trans %}project.web.convention.titre{% endtrans %}</h3>
+
+    <p>{% trans %}project.web.convention.presentation{% endtrans %}</p>
+
+    <h2>{% trans %}project.scolaire.titre{% endtrans %}</h2>
+
+    <p>{% trans %}project.scolaire.presentation{% endtrans %}</p>
+
+    <h3>{% trans %}project.scolaire.nims.titre{% endtrans %}</h3>
+
+    <p>{% trans %}project.scolaire.nims.presentation{% endtrans %}</p>
+
+
+{% endblock %}

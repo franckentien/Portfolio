@@ -1,0 +1,107 @@
+{# app/Ressources/views/default/index.html.twig #}
+{% extends '::menu.html.twig' %}
+{% block metaKeyword %}{% trans %}resume.keyword{% endtrans %}{% endblock %}
+{% block metaDescription %}{% trans %}resume.description{% endtrans %}{% endblock %}
+{% block metaTitle %}{% trans %}resume.title{% endtrans %}{% endblock %}
+
+{% block menuTitre %}{% trans %}resume.titre{% endtrans %}{% endblock %}
+{% block pageContent %}
+
+    <table class="mdl-data-table mdl-js-data-table table100">
+        <caption>{% trans %}resume.formation.titre{% endtrans %}</caption>
+        <thead>
+        <tr>
+            <th class="mdl-data-table__cell--non-numeric">{% trans %}resume.formation.dates{% endtrans %}</th>
+            <th class="mdl-data-table__cell--non-numeric">{% trans %}resume.formation.formation{% endtrans %}</th>
+            <th class="mdl-data-table__cell--non-numeric">{% trans %}resume.formation.lieu{% endtrans %}</th>
+            <th class="mdl-data-table__cell--non-numeric">{% trans %}resume.formation.etablissement{% endtrans %}</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.formation.lp.dates{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.formation.lp.formation{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.lieu.montpellier{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.formation.lp.etablissement{% endtrans %}</td>
+        </tr>
+        <tr>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.formation.iut.dates{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.formation.iut.formation{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.lieu.montpellier{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.formation.iut.etablissement{% endtrans %}</td>
+        </tr>
+        <tr>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.formation.bts.dates{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.formation.bts.formation{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.lieu.montpellier{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.formation.bts.etablissement{% endtrans %}</td>
+        </tr>
+        <tr>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.formation.bac.dates{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.formation.bac.formation{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.lieu.st-clement{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.formation.bac.etablissement{% endtrans %}</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <table class="mdl-data-table mdl-js-data-table table100">
+        <caption>{% trans %}resume.experience.titre{% endtrans %}</caption>
+        <thead>
+        <tr>
+            <th class="mdl-data-table__cell--non-numeric">{% trans %}resume.experience.dates{% endtrans %}</th>
+            <th class="mdl-data-table__cell--non-numeric">{% trans %}resume.experience.entreprise{% endtrans %}</th>
+            <th class="mdl-data-table__cell--non-numeric">{% trans %}resume.experience.lieu{% endtrans %}</th>
+            <th class="mdl-data-table__cell--non-numeric">{% trans %}resume.experience.job{% endtrans %}</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.experience.sf.dates{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric"><a href="{% trans %}resume.experience.sf.link{% endtrans %}">{% trans %}resume.experience.sf.entreprise{% endtrans %}</a></td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.lieu.hiroshima{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.experience.sf.job{% endtrans %}</td>
+        </tr>
+        <tr>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.experience.cesml.dates{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric"><a href="{% trans %}resume.experience.cesml.link{% endtrans %}">{% trans %}resume.experience.cesml.entreprise{% endtrans %}</a></td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.lieu.st-gely{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.experience.cesml.job{% endtrans %}</td>
+        </tr>
+        <tr>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.experience.mairie.dates{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric"><a href="{% trans %}resume.experience.mairie.link{% endtrans %}">{% trans %}resume.experience.mairie.entreprise{% endtrans %}</a></td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.lieu.st-gely{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.experience.mairie.job{% endtrans %}</td>
+        </tr>
+        <tr>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.experience.tcf.dates{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric"><a href="{% trans %}resume.experience.tcf.link{% endtrans %}">{% trans %}resume.experience.tcf.entreprise{% endtrans %}</a></td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.lieu.st-gely{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.experience.tcf.job{% endtrans %}</td>
+        </tr>
+        <tr>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.experience.mario.dates{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric"><a href="{% trans %}resume.experience.mario.link{% endtrans %}">{% trans %}resume.experience.mario.entreprise{% endtrans %}</a></td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.lieu.valras{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.experience.mario.job{% endtrans %}</td>
+        </tr>
+        <tr>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.experience.boulangerie.dates{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.experience.boulangerie.entreprise{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.lieu.st-gely{% endtrans %}</td>
+            <td class="mdl-data-table__cell--non-numeric">{% trans %}resume.experience.boulangerie.job{% endtrans %}</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h2>{% trans %}resume.divers.titre{% endtrans %}</h2>
+    <p>{% trans %}resume.divers.logiciel.maitrise{% endtrans %}</p>
+    <p>{% trans %}resume.divers.logiciel.partiel{% endtrans %}</p>
+    <p>{% trans %}resume.divers.logiciel.divers{% endtrans %}</p>
+    <p>{% trans %}resume.divers.programmation.maitrise{% endtrans %}</p>
+    <p>{% trans %}resume.divers.programmation.partiel{% endtrans %}</p>
+    <p>{% trans %}resume.divers.langues{% endtrans %}</p>
+
+{% endblock %}

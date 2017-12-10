@@ -1,0 +1,19 @@
+{# app/Ressources/views/default/index.html.twig #}
+{% extends '::menu.html.twig' %}
+{% block metaKeyword %}{% trans %}index.keyword{% endtrans %}{% endblock %}
+{% block metaDescription %}{% trans %}index.description{% endtrans %}{% endblock %}
+{% block metaTitle %}{% trans %}index.title{% endtrans %}{% endblock %}
+
+{% block menuTitre %}{% trans %}index.titre{% endtrans %}{% endblock %}
+{% block pageContent %}
+
+
+    <p>{% trans %}index.welcome{% endtrans %}</p>
+
+    <p>{% trans %}index.presentation{% endtrans %}</p>
+
+    <p>{% trans %}index.hobbies{% endtrans %}</p>
+
+    <p>{% trans %}index.redirection{% endtrans %}</p>
+
+{% endblock %}

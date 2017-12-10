@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Material + General-->
+    <meta charset="{{ _charset }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-deep_orange.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- ressource pressonnel -->
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    <!-- franck-cayzac.fr -->
+    <meta name="robots" content="noindex" />
+    <meta charset="{{ _charset }}" />
+    <title>An Error Occurred: {{ status_text }}</title>
+    <meta name="author" content="CAYZAC Franck">
+</head>
+
+<body>
+
+
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+    <header class="mdl-layout__header menu-grey">
+        <div class="mdl-layout__header-row">
+            <span class="mdl-layout-title">Oops! An Error Occurred</span>
+        </div>
+    </header>
+    <div class="mdl-layout__drawer menu-grey">
+        <span class="mdl-layout-title menu-dark">Franck CAYZAC</span>
+        <nav class="mdl-navigation" >
+            <a class="mdl-navigation__link text-white" href="{{ path('App_main') }}">
+                <i class="material-icons md-light" role="presentation">home</i>
+                {% trans %}nav.main{% endtrans %}
+            </a>
+            <a class="mdl-navigation__link" href="{{ path('App_resume') }}">
+                <i class="material-icons md-light" role="presentation">assignment_turned_in</i>
+                {% trans %}nav.cv{% endtrans %}
+            </a>
+            <a class="mdl-navigation__link" href="{{ path('App_project') }}">
+                <i class="material-icons md-light" role="presentation">computer</i>
+                {% trans %}nav.project{% endtrans %}
+            </a>
+            <a class="mdl-navigation__link" href="{{ path('App_hobbies') }}">
+                <i class="material-icons md-light" role="presentation">games</i>
+                {% trans %}nav.hobbies{% endtrans %}
+            </a>
+            <a class="mdl-navigation__link" href="{{ path('App_contact') }}">
+                <i class="material-icons md-light" role="presentation">contact_mail</i>
+                {% trans %}nav.contact{% endtrans %}
+            </a>
+            <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--6-col"><a class="mdl-navigation__link" href="{{ path('App_main', { '_locale': urlLang1 }) }}">{% trans %}nav.lang1{% endtrans %}</a></div>
+                <div class="mdl-cell mdl-cell--6-col"><a class="mdl-navigation__link" href="{{ path('App_main', { '_locale': urlLang2 }) }}">{% trans %}nav.lang2{% endtrans %}</a></div>
+            </div>
+            <div id="stackoverflow" style="text-align:center;"><a href="http://stackoverflow.com/users/6114929/franckentien" target="_blank"><img style="max-width: 90%; max-height: 90%;" src="http://stackoverflow.com/users/flair/6114929.png?theme=dark" alt="profile for Franckentien at Stack Overflow" title="profile for Franckentien at Stack Overflow"></a></div>
+        </nav>
+    </div>
+    <main class="mdl-layout__content" style="background-color: whitesmoke">
+        <div class="page-content" >
+            <div class="mdl-shadow--6dp mdl-cell mdl-cell--12-col mdl-grid" style="background-color: white">
+                <div class="mdl-cell mdl-cell--12-col">
+                    <p style="font-weight: bold">The server returned a "{{ status_code }} {{ status_text }}".</p>
+                    <p>An Error Occurred. Please let us know what you were doing when this error occurred.<br>
+                        We will fix it as soon as possible. Sorry for any inconvenience caused.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+
+
+
+<!--Import jQuery before materialize.js-->
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+{% block javascripts %}{% endblock %}
+</body>
+</html>

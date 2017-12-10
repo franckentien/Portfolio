@@ -1,0 +1,68 @@
+{# app/Ressources/views/menu.html.twig #}
+
+
+{% if app.request.getLocale() == 'fr' %}
+    {% set urlLang1 = 'en' %}
+    {% set urlLang2 = 'ja' %}
+{% elseif app.request.getLocale() == 'ja' %}
+    {% set urlLang1 = 'fr' %}
+    {% set urlLang2 = 'en' %}
+{% else %}
+    {% set urlLang1 = 'fr' %}
+    {% set urlLang2 = 'ja' %}
+{% endif %}
+
+
+
+{% extends '::base.html.twig' %}
+
+{% block body %}
+    <!-- The drawer is always open in large screens. The header is always shown,
+      even in small screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+        <header class="mdl-layout__header menu-grey">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">{% block menuTitre %}{% endblock %}</span>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer menu-grey">
+            <span class="mdl-layout-title menu-dark">Franck CAYZAC</span>
+            <nav class="mdl-navigation" >
+                <a class="mdl-navigation__link text-white" href="{{ path('App_main') }}">
+                    <i class="material-icons md-light" role="presentation">home</i>
+                    {% trans %}nav.main{% endtrans %}
+                </a>
+                <a class="mdl-navigation__link" href="{{ path('App_resume') }}">
+                    <i class="material-icons md-light" role="presentation">assignment_turned_in</i>
+                    {% trans %}nav.cv{% endtrans %}
+                </a>
+                <a class="mdl-navigation__link" href="{{ path('App_project') }}">
+                    <i class="material-icons md-light" role="presentation">computer</i>
+                    {% trans %}nav.project{% endtrans %}
+                </a>
+                <a class="mdl-navigation__link" href="{{ path('App_hobbies') }}">
+                    <i class="material-icons md-light" role="presentation">games</i>
+                    {% trans %}nav.hobbies{% endtrans %}
+                </a>
+                <a class="mdl-navigation__link" href="{{ path('App_contact') }}">
+                    <i class="material-icons md-light" role="presentation">contact_mail</i>
+                    {% trans %}nav.contact{% endtrans %}
+                </a>
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--6-col"><a class="mdl-navigation__link" href="{{ path('App_main', { '_locale': urlLang1 }) }}">{% trans %}nav.lang1{% endtrans %}</a></div>
+                    <div class="mdl-cell mdl-cell--6-col"><a class="mdl-navigation__link" href="{{ path('App_main', { '_locale': urlLang2 }) }}">{% trans %}nav.lang2{% endtrans %}</a></div>
+                </div>
+                <div id="stackoverflow" style="text-align:center;"><a href="https://stackoverflow.com/users/6114929/franckentien" target="_blank"><img style="max-width: 90%; max-height: 90%;" src="http://stackoverflow.com/users/flair/6114929.png?theme=dark" alt="profile for Franckentien at Stack Overflow" title="profile for Franckentien at Stack Overflow"></a></div>
+            </nav>
+        </div>
+        <main class="mdl-layout__content" style="background-color: whitesmoke">
+            <div class="page-content" >
+                <div class="mdl-shadow--6dp mdl-cell mdl-cell--12-col mdl-grid" style="background-color: white">
+                    <div class="mdl-cell mdl-cell--12-col">
+                    {% block pageContent %}{% endblock %}
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+{% endblock %}
