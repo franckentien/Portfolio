@@ -1,6 +1,6 @@
 {
-    "name": "franc/franck-cayzac.fr",
-
+    "name": "franck-cayzac.fr",
+    "description ": "The source of the web site www.franck-cayzac.fr. This project was the Portfolio website of Franck CAYZAC ",
     "license": "proprietary",
     "type": "project",
     "autoload": {
